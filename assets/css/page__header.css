@@ -1,0 +1,27 @@
+.main__page{
+    width: 100%;
+    height: 3000px;
+    background-color:rgb(238,238,238);
+}
+
+.page__header-banner{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(33, 119, 223);
+}
+
+.page__header{
+    display: flex;
+}
+
+.page__header-link{
+
+}
+
+.page__header-menu-contents{
+    display: inherit;
+}
+
+.page__header-menu-social{
+    
+}
