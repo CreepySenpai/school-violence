@@ -22,7 +22,23 @@
 
 .page__header-link{
     text-decoration: none;
+    margin-left: 50px;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 15px;
+    display: flex;
+}
 
+.page__header-link:hover{
+    color: rgb(11, 135, 173);
+}
+
+.page__header-link:first-child{
+    margin-left: 30px;
+}
+
+.page__header-link-box{
+    margin: auto;
 }
 
 .page__header-menu-contents{
@@ -48,8 +64,9 @@
     transform-origin: calc(100% - 20px) top;
     width: 300px;
     height: 100px;
-    background-color: red;
+    background-color: rgb(208, 230, 245);
     border-radius: 2px;
+    /* border: 1px solid rgb(126, 126, 127); */
     cursor: default;
     transform-origin: calc(100% - 20px) top;
     animation: headerSearchBoxGrowth ease-in 0.2s;
@@ -65,7 +82,7 @@
     content: "";
     border-width: 20px 24px;
     border-style: solid;
-    border-color: transparent transparent orange transparent;
+    border-color: transparent transparent rgb(208, 230, 245) transparent;
     position: absolute;
     right: -1px;
     top: -32px;
