@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Gg fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -169,7 +169,7 @@ a.google span{
     .form{
         padding: 15px 10px;
     }
-=======
+
 /* Gg fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
@@ -336,9 +336,13 @@ a.google span{
     color: #232836;
 }
 
+a.backhome:hover {
+    color: #8b8b8b;
+}
+
 @media screen and (max-width: 400px){
     .form{
         padding: 15px 10px;
     }
->>>>>>> 3f6c873183e4413d02aad84de49560ed7f9d82f9
+}
 }
