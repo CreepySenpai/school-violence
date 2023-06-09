@@ -264,3 +264,120 @@
 .page__body-action-body-btn:hover{
     background-color: rgb(252, 193, 44);
 }
+
+
+/* Start Donate Page */
+
+.page__body-donate{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 1%;
+    display: flex;
+}
+
+.page__body-donate-c{
+    margin: auto;
+}
+
+.page__body-donate-tittle{
+    font-family: 'Pangolin';
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 30%;
+}
+
+.page__body-donate-container{
+
+}
+
+.page__body-donate-form{
+    margin-top: 10%;
+}
+
+.page__body-donate-form-label{
+    font-family: 'Pangolin';
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.page__body-donate-form-input{
+    height: 35px;
+    width: 350px;
+    border: 1px solid #cfcece;
+    border-radius: 4px;
+}
+
+.page__body-donate-type{
+    width: 100%;
+    height: 220px;
+    background-color: white;
+    display: flex;
+}
+
+.page__body-donate-type-c{
+    margin: auto;
+    margin-right: 26%;
+}
+
+.page__body-donate-type-tittle{
+    font-family: 'Pangolin';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.page__body-donate-type-list{
+    display: flex;
+}
+
+.page__body-donate-type-item{
+    margin-left: 5%;
+}
+
+.page__body-donate-type-item-img{
+    width: 230px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.page__body-donate-type-item input{
+    width: 30px;
+    height: 15px;
+    
+}
+
+.page__body-donate-type-item-f{
+    display: flex;
+}
+
+.page__body-donate-type-item-f h5{
+    font-family: 'Pangolin';
+    font-size: 16px;
+    padding-top: 4px;
+}
+
+.page__body-donate-button{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+
+.page__body-donate-button a{
+    margin: auto;
+    margin-right: 45%;
+    
+}
+
+.page__body-donate-button a button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(253,180,0);
+    color: #333;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* End Donate Page */
