@@ -380,4 +380,8 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+.page__body-donate-button a button:hover{
+    background-color: rgb(250, 202, 81);
+}
 /* End Donate Page */

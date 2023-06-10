@@ -3,6 +3,9 @@
     height: 3000px;
     background-color:rgb(240,241,243);
 }
+.donate__page{
+    height: 1470px !important;
+}
 
 .page__header-banner{
     width: 100%;
