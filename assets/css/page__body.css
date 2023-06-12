@@ -385,3 +385,189 @@
     background-color: rgb(250, 202, 81);
 }
 /* End Donate Page */
+
+/* Start About Us Page */
+
+.page__body__about-us-mission{
+    width: 100%;
+    height: 360px;
+    background-color: white;
+    margin-top: 1.5%;
+    display: flex;
+}
+
+.page__body__about-us-mission-block{
+    height: 100%;
+    width: 50%;
+}
+
+.page__body__about-us-mission-block-img{
+    width: 550px;
+    height: 290px;
+    margin-top: 4%;
+}
+
+.page__body__about-us-mission-block-img-l{
+    margin-left: 21%;
+}
+
+.page__body__about-us-mission-block-tittle{
+    font-family: 'Pangolin';
+    font-size: 35px;
+    margin-top: 6%;
+    text-align: center;
+}
+
+.page__body__about-us-mission-block-des{
+    width: 60%;
+    font-family: 'Pangolin';
+    font-size: 19px;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.page__body__about-us-intro{
+    width: 100%;
+    height: 370px;
+    /* background-color: rgb(33,119,223); */
+    margin-top: 0 !important;
+    border: 1px solid #dddddd;
+}
+
+.page__body__about-us-action{
+    width: 100%;
+    height: 1120px;
+    background-color: white;
+    border: 1px solid #dfdfdf;
+}
+
+.page__body__about-us-action-tittle{
+    font-family: 'Pangolin';
+    font-size: 30px;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.page__body__about-us-action-container{
+    width: 100%;
+    height: 1000px;
+    margin-top: 4%;
+    background-color: brown;
+}
+
+.page__body__about-us-action-container-col{
+    display: flex;
+}
+
+.page__body__about-us-action-container-row{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+}
+
+.page__body__about-us-action-container-row-img{
+    width: 600px;
+    height: 300px;
+    margin-left: 10%;
+}
+
+.page__body__about-us-action-container-row-tittle{
+    text-align: center;
+    font-family: 'Pangolin';
+    font-size: 30px;
+    padding-top: 1%;
+}
+
+.page__body__about-us-action-container-row-des{
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 5%;
+    height: auto;
+    width: 90%;
+    font-size: 17px;
+}
+
+.page__body__about-us-your-mission{
+    width: 100%;
+    height: 430px;
+    background-color: white;
+    display: flex;
+    padding-top: 3%;
+}
+
+.page__body__about-us-your-mission-block{
+    width: 50%;
+    height: 420px;
+    background-color: white;
+}
+
+.page__body__about-us-your-mission-block h3{
+    font-family: 'Pangolin';
+    font-size: 25px;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.page__body__about-us-your-mission-block h3:first-child{
+    padding-top: 0;
+}
+
+.page__body__about-us-your-mission-block p{
+    text-align: center;
+    width: 90%;
+    margin-top: 3%;
+    margin-left: 25px;
+}
+
+.page__body__about-us-your-mission-form{
+    padding-top: 2%;
+    padding-left: 10%;
+    background-color: rgb(46, 104, 211);
+    width: 80%;
+    border: 1px solid #c1c0c0;
+    border-radius: 10px;
+}
+
+.page__body__about-us-your-mission-form-tittle{
+    font-family: 'Pangolin';
+    font-size: 17px;
+    color: white;
+    /* text-align: end; */
+}
+
+.page__body__about-us-your-mission-form-input{
+    width: 300px;
+    height: 40px;
+    outline: none;
+    margin-top: 8%;
+    margin-left: 5%;
+    border: 1px solid #8f8e8e;
+    border-radius: 10px;
+}
+
+.page__body__about-us-your-mission-form-input-f{
+    margin-top: 2%;
+}
+
+.page__body__about-us-your-mission-form-btn{
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 10%;
+    background-color: rgb(255, 183, 0);
+    
+}
+
+.page__body__about-us-your-mission-form-btn:hover{
+    background-color: rgb(252, 211, 107);
+}
+
+.page__body__about-us-your-mission-form-none{
+    padding-top: 10px;
+}
+/* End About Us Page */
