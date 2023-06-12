@@ -487,6 +487,9 @@
     height: auto;
     width: 90%;
     font-size: 17px;
+    font-family: 'Pangolin';
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .page__body__about-us-your-mission{
@@ -499,13 +502,13 @@
 
 .page__body__about-us-your-mission-block{
     width: 50%;
-    height: 420px;
+    height: 400px;
     background-color: white;
 }
 
 .page__body__about-us-your-mission-block h3{
     font-family: 'Pangolin';
-    font-size: 25px;
+    font-size: 29px;
     padding-top: 2%;
     text-align: center;
 }
@@ -516,9 +519,12 @@
 
 .page__body__about-us-your-mission-block p{
     text-align: center;
+    font-family: 'Pangolin';
+    font-size: 15px;
+    line-height: 1.4;
     width: 90%;
     margin-top: 3%;
-    margin-left: 25px;
+    margin-left: 29px;
 }
 
 .page__body__about-us-your-mission-form{
