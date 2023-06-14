@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/Logo_School_Violence.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./assets/css/resetcss.css">
     <link rel="stylesheet" href="./assets/css/page__header.css">
     <link rel="stylesheet" href="./assets/css/page__body.css">
     <link rel="stylesheet" href="./assets/css/page__footer.css">
+    <link rel="stylesheet" href="./assets/css/Story_Advise.css">
     <link rel="stylesheet" href="./assets/font/fontawesome-6.4.0/css/all.min.css">
     <title>Biểu Đồ Và Số Liệu Thống Kê</title>
 </head>
@@ -16,9 +17,7 @@
     <div class="main__page">
         <!-- Banner -->
         <div class="page__header-banner">
-            <img src="./assets/img/Logo_School_Violence.png" alt="logo website">
-            <span class="first_banner">School</span>
-            <span class="last_banner">Violence</span>
+                
         </div>
 
         <!-- Menu -->
@@ -68,7 +67,7 @@
 
             <!-- Search -->
             <div class="page__header-search page__header-search--hover">
-                <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #030507;"></i>
+                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
 
                 <!-- Search Box -->
                 <div class="page__header-search-box">
@@ -84,7 +83,106 @@
         </div>
 
         <div class="page__body">
-            
+            <div class="container">
+
+                <!---------- Left sidebar ---------->
+                <div class="left-sidebar">
+                    <div class="imp-links">
+                        <a href="#"><img src="./assets/img/icon_post.png" alt="">Bài viết mới</a>
+                        <a href="#"><img src="./assets/img/icon_care.png" alt="">Trò chuyện vui vẻ</a0>
+                        <a href="#">Nhiều hơn</a>
+                    </div>
+                    <div class="advertisement">
+                        <p>Tin tức nổi bật</p>
+                        <a href="#"><img src="./assets/img/icon_News.png" alt="">Tin tức A</a>
+                        <a href="#"><img src="./assets/img/icon_News.png" alt="">Tin tức B</a>
+                        <a href="#"><img src="./assets/img/icon_News.png" alt="">Tin tức C</a>
+                        <a href="#"><img src="./assets/img/icon_News.png" alt="">Tin tức D</a>
+                    </div>
+                </div>
+
+                <!---------- Main content ----------->
+                <div class="main-content">
+                    <div class="write-post-container">
+                        <div class="user-profile">
+                            <img src="./assets/img/avatar-mac-dinh.png" alt="">
+                            <div>
+                                <p>Avatar</p>
+                                <select>
+                                    <option value="option1">Đăng công khai</option>
+                                    <option value="option2">Đăng ẩn danh</option>
+                                  </select>                                  
+                            </div>
+                        </div>
+                        <div class="post-input-container">
+                            <textarea rows="3" placeholder="Viết câu chuyện bạn đang gặp phải."></textarea>
+                            <div class="add-post-links">
+                                <a href="#"><img src="./assets/img/camera_video_icon.png" alt="">Live Video</a>
+                                <a href="#"><img src="./assets/img/Picture_icon.png" alt="">Photo/Video</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+
+                        <div class="user-profile">
+                            <img src="./assets/img/avatar-mac-dinh.png" alt="">
+                            <div>
+                                <p>Avatar</p> 
+                                <span>Ngày XX Tháng XX Năm XXXX, 00:00</span>                               
+                            </div>
+                        </div>
+                        <p class="post-text">Chào mừng đến với Website School Violence</p>
+                        <img src="./assets/img/welcome.jpg" class="post-img">
+                        
+                        <div class="user-profile">
+                            <img src="./assets/img/avatar-mac-dinh.png" alt="">
+                            <div>
+                                <p>Avatar</p> 
+                                <span>Ngày XX Tháng XX Năm XXXX, 00:00</span>                               
+                            </div>
+                        </div>
+                        <p class="post-text">Chào mừng đến với Website School Violence</p>
+                        <img src="./assets/img/welcome.jpg" class="post-img">
+                    </div>
+
+                </div>
+
+                <!---------- Right sidebar ----------->
+                <div class="right-sidebar">
+                    <div class="sidebar-title">
+                        <h4>Sự kiện</h4>
+                        <a href="#">Tất cả</a>
+                    </div>
+                    <div class="event">
+                        <div class="left-event">
+                            <h3>Ngày</h3>
+                            <span>Tháng</span>
+                        </div>
+                        <div class="right-event">
+                            <h4>Làm thế nào để tránh bạo lực học đường?</h4>
+                            <p>Tổ chức tại......</p>
+                            <a href="#">Thêm thông tin</a>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="left-event">
+                            <h3>Ngày</h3>
+                            <span>Tháng</span>
+                        </div>
+                        <div class="right-event">
+                            <h4>Tuyên tuyền tác hại bạo lực học đường.</h4>
+                            <p>Tổ chức tại......</p>
+                            <a href="#">Thêm thông tin</a>
+                        </div>
+                    </div>
+                    <div class="sidebar-title">
+                        <h4>Quảng cáo</h4>
+                        <a href="#">Đóng</a>
+                    </div>
+                    <img src="./assets/img/QC.jpg" class="sidebar-ads">
+                </div>   
+            </div>
         </div>
 
         <div class="page__footer">
@@ -142,23 +240,7 @@
                 <div class="page__footer-content-line"></div>
 
                 <div class="page__footer-content-sub">
-                    <div class="page__footer-content-sub-f">
-                        <img src="./assets/img/Logo_School_Violence.png" alt="logo" class="page__footer-content-sub-img">
-                        <span class="first_banner_small">School</span>
-                        <span class="last_banner_small">Violence</span>
-                    </div>
-
-                    <div class="page__footer-content-main-f">
-                        <a href="" class="page__footer-content-main-f-link">
-                            Privacy Policy
-                        </a>
-                        <a href="" class="page__footer-content-main-f-link">
-                            Contact Us
-                        </a>
-                    </div>
-                    <p class="page__footer-content-main-ff">
-                        &copy; Copy Right by School Violence
-                    </p>
+                    
                 </div>
             </div>
         </div>
