@@ -160,7 +160,8 @@
     display: flex;
     width: 40%;
     justify-content: space-around;
-    margin-top: 4.1%;
+    margin-top: 4.99%;
+
 }
 
 .page__footer-content-main-f-link{
@@ -174,5 +175,5 @@
     color: rgb(245,245,245);
     font-size: 15px;
     font-family: sans-serif;
-    margin-top: 4%;
+    margin-top: 4.99%;
 }
