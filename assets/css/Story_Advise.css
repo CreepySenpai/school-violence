@@ -220,3 +220,22 @@ select:hover {
     border-radius: 4px;
     margin-bottom: 5px;
 }
+
+.post-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.activity-icon div img{
+    width: 18px;
+    margin-right: 10px;
+}
+.activity-icon div{
+    display: inline-flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.post-row a{
+    color: #9a9a9a;
+}
